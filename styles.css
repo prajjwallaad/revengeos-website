@@ -1,4 +1,4 @@
-body { 
+body {
     background-image: url("images/revengeWall.png");
     background-position: center;
     background-attachment: fixed;
@@ -12,11 +12,15 @@ body, html {
 }
 
 .cardMy{
-    margin: 5%;
-    opacity: 0.8;
-    height: 100%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     border-radius: 1rem;
+    margin-bottom: 0px;
+    background: url("images/revengeWall.png") center no-repeat fixed;
+    background-size: cover;
 }
+
 .sidebar{
     position: fixed;
     width: 25%;
